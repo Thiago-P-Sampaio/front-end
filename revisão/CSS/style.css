@@ -1,0 +1,65 @@
+html{
+    display: grid;
+    place-items: center;
+}
+ 
+ 
+ header h1, main h2{
+    text-transform: uppercase ;
+    background: linear-gradient(#12ab34,#dcad03);
+    text-align: center;
+}
+ 
+header p{
+    font-size: 1.125em;
+}
+
+header span{
+    font-weight: bold;
+    font-size: 20px;  
+}
+
+.email {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+.minha-foto {
+ width: 600px;
+ height: 200px;
+ border-radius: 5px;
+}
+
+.minha-foto:hover{
+    
+    width: 1000px;
+    height: 200px;
+    border-radius: 200px;
+    
+}
+
+a{
+    display: flex;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-size: 1.40em;
+}
+
+a img{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-left: 30px;
+}
